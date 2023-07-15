@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --primary-color: yellow;
+            --child-color: pink;
+            --font-color: white;
+        }
+        .app {
+            height: 1200px;
+        }
+
+        .container {
+            height: 400px;
+            background-color: var(--primary-color);
+            border: 10px solid red;
+            overflow-y: scroll;
+        }
+
+        .child {
+            height: 600px;
+            background-color: var(--child-color);
+        }
+        
+        .card {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            color: var(--font-color);
+        }
+
+        .relative {
+            /* relative是相对于自身 */
+            position: relative;
+            left: 50px;
+            top: 10px;
+        }
+
+        .absolute {
+            /* absolute是相对于上一个position属性不是static，没有则是body    */
+            position: absolute;
+            left: 100px;
+            /* top: 0px; */
+        }
+
+        .fixed {
+            position: fixed;
+            left:0;
+            top:0;
+        }
+
+        .litter {
+            width: 60px;
+            height: 60px;
+            background-color: black;
+            color: white;
+            position: sticky;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <div>1234</div>
+            <div>1234</div>
+            <div>1234</div>
+            <div class="child">
+                <!-- <div class="card litter">粘性定位</div> -->
+                <!-- <div class="card relative">relative</div> -->
+                <div class="card absolute">absolute</div>
+                <!-- <div class="card fixed">fixed</div> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
