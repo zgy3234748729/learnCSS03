@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒模型</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+        .test-margin {
+            /* margin: 10px; */
+            margin: 10px 100px;
+            border: 1px solid blue;
+        }
+        .test-padding {
+            border: 1px solid red;
+            margin: 10px;
+            padding: 5px;
+        }
+        .test-nav {
+            border: 1px solid pink;
+            margin-left: 90%;
+            width: calc(10% - 10px);
+            height: 200px;
+            background-color: coral;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="test-margin">123</div>
+    <div class="test-padding">zgy</div>
+    <div class="test-nav"></div>
+    <span class="test-line">行内标签快测试</span>
+</body>
+</html>
