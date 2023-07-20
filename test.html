@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+
+        }
+
+        .relative {
+            position: relative;
+            top: 0px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+
+        .box {
+            display: flex;
+            height: 8em;
+            width: 8em;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .big {
+            height: 8em;
+            width: 8em;
+        }
+
+        .small {
+            height: 6em;
+            width: 6em;
+        }
+
+        .pink {
+            background-color: pink;
+        }
+        
+        .blue {
+            background-color: blue;
+        }
+
+        .black {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="relative box big pink">
+            <span>relative块</span>
+            <div class="absolute box small blue">
+                <span>absolute块</span>
+            </div>
+        </div>
+        <div>relative下的内容</div>
+        <div class="fixed box small black">fixed块</div>
+
+    </div>
+</body>
+</html>

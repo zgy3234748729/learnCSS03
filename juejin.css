@@ -1,0 +1,214 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.top {
+    border-radius: 4px;
+    display: flex;
+    height: 112px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box; /* TODO:这是什么 */
+    max-width: 692px;
+}
+
+.main {
+    max-width: 692px;
+}
+
+.touxiang {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* .top-context {
+    display: flex;
+} */
+
+
+
+.user-name {
+    font-size:20px;
+    font-weight: 500;
+}
+
+
+.divider {
+    height: 13px;
+    width: 1px;
+    background-color: #c2c8d1;
+    margin: 0 12px;
+}
+
+.top .data-item {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8a919f;
+}
+
+.count {
+    color: #252933;
+}
+
+.user-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.top-context {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+
+
+
+
+.sub-title {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 16px 0;
+
+}
+
+.sub-title .icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 4px;
+}
+
+.more {
+    font-size: 14px;
+    line-height: 24px;
+    color: #86909c;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.byte-icon {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    fill: currentColor;
+}
+
+.more:hover {
+    color: #1d7dfa;
+}
+
+.more .icon {
+    height: 12px;
+    width: 12px;
+    margin-left: 4px;
+}
+
+i {
+    font-style: italic;
+}
+
+.title-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #1d2129;
+    padding: 0 20px;
+    border-bottom: 1px solid #e5e6eb;
+}
+
+.card {
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding-bottom: 24px;
+    margin-bottom: 16px;
+}
+
+.vary-box {
+    display: flex;
+    align-items: center;
+    height: 22px;
+}
+
+.vary-box img {
+    margin-left: 8px;
+}
+
+/* .data-card {
+    box-sizing: border-box;
+    padding: 16px 20px;
+    height: fit-content;
+    border-radius: 2px;
+} */
+
+.data-card .data {
+    color: #1d2129;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 4px;
+    white-space: nowarp;
+}
+
+.data-card .data-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+
+.data-card .first-floor {
+    margin-bottom: 20px;
+}
+
+.data-card .data-card-item {
+    background-color: #f7f8fa;
+    width: 163.998px;
+    /* margin-right: 20px; */
+    /* margin-bottom: 20px; */
+    padding: 16px 20px;
+    height: fit-content;
+    border-radius: 2px;
+}
+
+.data-card .label {
+    display: flex;
+    align-items: center;
+    color: #4e5969;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 4px;
+}
+
+.data-card .label .tooltip {
+    margin-left: 4px;
+}
+
+.data-card .label .tooltip .tooltip-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.data-card .label .byte-tooltip_wrapper {
+    display: flex;
+}
+
+.data-card .vary-box .text {
+    color: #4e5969;
+    font-size: 12px;
+    white-space: nowrap;
+}

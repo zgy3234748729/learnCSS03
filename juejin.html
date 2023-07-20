@@ -4,37 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>掘金</title>
+    <link rel="stylesheet" href="./juejin.css">
+    <style>
+        :root {
+            --juejin-background: #f2f3f5;
+        }
+
+        body, html {
+            -webkit-font-smoothing: unset!important;
+            font-family: -apple-system,system-ui,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif,BlinkMacSystemFont,Helvetica Neue,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial!important;
+            background-color: var(--juejin-background);
+        }
+
+        body {
+            font-size: 12px;
+            line-height: normal;
+        }
+
+        
+    </style>
+
 </head>
 <body>
-    <div class="top">
-        <img class="touxiang" src="touxiang.png" alt="touxiang">
-        <div class="top-context">
-            <div class="user-top">
-                
-                user7481366821120
+    <div class="container">
+        <div class="main">
+            <div class="top">
+                <img class="touxiang" src="https://p3-passport.byteimg.com/img/mosaic-legacy/3791/5070639578~180x180.awebp" alt="touxiang">
+                <div class="top-context">
+                    <div class="user-top">
+                        <span class="user-name">
+                            user7481366821120
+                        </span>
+                    </div>
+                    <div class="user-bottom">
+                        <div class="data-item">
+                            <span class="count">0</span>
+                            粉丝
+                        </div>
+                        <div class="divider"></div>
+                        <div class="data-item">
+                            <span class="count">0</span>
+                            关注
+                        </div>
+                        <div class="divider"></div><div class="data-item">
+                            <span class="count">0</span>
+                            掘力值
+                        </div>
+                        <div class="divider"></div>
+                        <div class="data-item">
+                            在掘金创作的第
+                            <span class="count">0</span>
+                            天
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="user-bottom">
-                <div class="data-item">
-                    <span class="count">0</span>
-                    "  粉丝 "
+            
+            <div class="card data-card">
+                <div class="title-line">
+                    <h2 class="sub-title">
+                        数据概览
+                        <span class="tooltip">
+                            <span class="byte-tooltip">
+                                <img class="icon" src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/4a971af564875b899b3847269d3f2a7e.svg"/>
+                            </span>
+                        </span>
+                    </h2>
+                    <div class="more">
+                        <span>查看更多</span>
+                        <i class="icon byte-icon byte-icon--right">
+                            <svg t="1561636167146" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="404349" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M630.4 512L283.52 165.12a21.12 21.12 0 0 1 0-30.08l30.08-30.08a21.12 21.12 0 0 1 30.08 0l377.6 376.96a42.24 42.24 0 0 1 0 60.16l-377.6 376.96a21.12 21.12 0 0 1-30.08 0l-30.08-30.08a21.12 21.12 0 0 1 0-30.08z" p-id="404350"></path></svg>
+                        </i>
+                    </div>
                 </div>
-                <div class="divider"></div>
-                <div class="data-item">
-                    <span class="count">0</span>
-                    "  关注 "
-                </div>
-                <div class="divider"></div><div class="data-item">
-                    <span class="count">0</span>
-                    "  掘力值 "
-                </div>
-                <div class="divider"></div>
-                <div class="data-item">
-                    "  在掘金创作的第 "
-                    <span class="count">0</span>
-                    " 天 "
+                <div class="data-card-container">
+                    <div class="first-floor data-card-item">
+                        <div class="label">
+                            <span title="总粉丝数" class="label-text">总粉丝数</span>
+                        </div>
+                        <div class="data">0</div>
+                        <div class="vary-box">
+                            <span class="text">较前日</span>
+                            <img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/7f170698b5ca3a3b477b940de47aab0f.svg" />
+                        </div>
+                    </div>
+                    <div class="first-floor data-card-item">
+                        <div class="label">
+                            <span title="文章展现数" class="label-text">文章展现数</span>
+                        </div>
+                        <span class="tooltip">
+                            <span class="byte-tooltip_wrapper">
+                                <img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/3b84c6fa9d8fbac473391478a4d7671c.svg" alt="help" class="tooltip-icon">
+                            </span>
+                        </span>
+                        <div class="data">0</div>
+                        <div class="vary-box">
+                            <span class="text">较前日</span>
+                            <img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/7f170698b5ca3a3b477b940de47aab0f.svg" />
+                        </div>
+                    </div>
+                    <div class="first-floor data-card-item">
+                        <div class="label">
+                            <span title="文章阅读数" class="label-text">文章阅读数</span>
+                        </div>
+                        <div class="data">0</div>
+                        <div class="vary-box">
+                            <span class="text">较前日</span>
+                            <img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/7f170698b5ca3a3b477b940de47aab0f.svg" />
+                        </div>
+                    </div>
+                    <div class="data-card-item">
+                        <div class="label">
+                            <span title="文章点赞数" class="label-text">文章点赞数</span>
+                        </div>
+                        <div class="data">0</div>
+                        <div class="vary-box">
+                            <span class="text">较前日</span>
+                            <img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/7f170698b5ca3a3b477b940de47aab0f.svg" />
+                        </div>
+                    </div>
+                    <div class="data-card-item">
+                        <div class="label">
+                            <span title="文章评论数" class="label-text">文章评论数</span>
+                        </div>
+                        <div class="data">0</div>
+                        <div class="vary-box">
+                            <span class="text">较前日</span>
+                            <img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/7f170698b5ca3a3b477b940de47aab0f.svg" />
+                        </div>
+                    </div>
+                    <div class="data-card-item">
+                        <div class="label">
+                            <span title="文章收藏数" class="label-text">文章收藏数</span>
+                        </div>
+                        <div class="data">0</div>
+                        <div class="vary-box">
+                            <span class="text">较前日</span>
+                            <img src="https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/7f170698b5ca3a3b477b940de47aab0f.svg" />
+                        </div>
+                    </div>
                 </div>
             </div>
+    
         </div>
     </div>
+    
 </body>
 </html>
